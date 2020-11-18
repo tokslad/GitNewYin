@@ -1,0 +1,215 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-17T22:54:02.816Z",
+        "line": 7,
+        "name": "Check Output window",
+        "description": "",
+        "id": "test-1;check-output-window",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6581303701,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "a user navigate to https://dotnetfiddle.net/",
+            "match": {
+              "arguments": [
+                {
+                  "val": " https://dotnetfiddle.net/",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeStepDefs.aUserNavigateTo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92687378,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "a user click on run button",
+            "match": {
+              "location": "HomeStepDefs.aUserClickOnRunButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "the text Hello World is displayed in the Output Window",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Before"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Test 1",
+    "description": "  As a user of the site i want\n  to confirm i can do certain things",
+    "id": "test-1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Home.feature",
+    "tags": [
+      {
+        "name": "@Before",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-17T22:54:09.537Z",
+        "line": 7,
+        "name": "",
+        "description": "",
+        "id": "test-2;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5547489529,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "a user navigate to https://dotnetfiddle.net/",
+            "match": {
+              "arguments": [
+                {
+                  "val": " https://dotnetfiddle.net/",
+                  "offset": 18
+                }
+              ],
+              "location": "HomeStepDefs.aUserNavigateTo(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235121473,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter names start with \"AdeyemiFolakemi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AdeyemiFolakemi\"",
+                  "offset": 25
+                }
+              ],
+              "location": "SampleStepDefs.iEnterNamesStartWith(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100690977,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter \"Nunit\" in the search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nunit\"",
+                  "offset": 8
+                }
+              ],
+              "location": "SampleStepDefs.iEnterInTheSearchBox(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5074476863,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select Nunit",
+            "match": {
+              "location": "SampleStepDefs.iSelectNunit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5074523514,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on version \"3.12.0\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3.12.0\"",
+                  "offset": 19
+                }
+              ],
+              "location": "SampleStepDefs.iClickOnVersion(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30767788,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the Nunit package added successfully",
+            "match": {
+              "location": "SampleStepDefs.theNunitPackageAddedSuccessfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Before"
+          },
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Test 2",
+    "description": "    As a user of the site i want\n    to confirm i can do certain things",
+    "id": "test-2",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Sample.feature",
+    "tags": [
+      {
+        "name": "@Before",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
